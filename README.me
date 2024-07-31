@@ -2,3 +2,17 @@ to use this API :
 - launch the API : node index.js
 - copy/paste the following adress to generate the final excel containing the conversion
 http://localhost:3000/convert
+
+Requirement for excel file :
+- this format :
+Hole_ID	X	Y	RL_AHD	Depth
+RKD002	548314.8	7476791.8	467.4	45.2
+RKD004	548095.6	7476396	462.3	53
+RKD015	547905	7476800	470	41
+RKD005	547505.9	7475596	461.6	42.4
+RKD006	547698.1	7475588.5	458.6	42.5
+- coordinates in EPSG20350 => AGD84 / AMG zone 50
+
+To improve this API :
+- could be able to make conversion in diverse coordinates systems.
+- could be used in a FrontEnd to get a user-friendly interface dedicated to the conversion of coordinates
